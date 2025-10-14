@@ -1,0 +1,260 @@
+[
+  {
+    "title": "Overview",
+    "description": "An introduction to ExcelJS, outlining its purpose, key features, and overall architecture to help you quickly understand its capabilities.",
+    "path": "/overview",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "package.json",
+      "lib/exceljs.nodejs.js",
+      "lib/exceljs.browser.js",
+      "lib/exceljs.bare.js"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Quick Start",
+    "description": "A fast-paced guide designed for developers to install ExcelJS, create a simple spreadsheet, and save it, all within minutes.",
+    "path": "/quick-start",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "lib/exceljs.nodejs.js",
+      "lib/xlsx/xlsx.js",
+      "lib/stream/xlsx/workbook-writer.js"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Core Concepts",
+    "description": "An explanation of the fundamental architecture, data models, and operational modes of ExcelJS for developers and technical decision-makers.",
+    "path": "/core-concepts",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "lib/exceljs.nodejs.js",
+      "lib/stream/xlsx/workbook-writer.js",
+      "lib/stream/xlsx/workbook-reader.js",
+      "lib/xlsx/xlsx.js"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Guides",
+    "description": "A collection of practical, in-depth guides covering the primary features and functionalities of the ExcelJS library.",
+    "path": "/guides",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "API Reference",
+    "description": "A detailed reference of all public classes, methods, and properties available in the ExcelJS library.",
+    "path": "/api-reference",
+    "sourceIds": [
+      "lib/exceljs.nodejs.js",
+      "lib/exceljs.browser.js",
+      "lib/stream/xlsx/workbook-writer.js",
+      "lib/stream/xlsx/worksheet-writer.js",
+      "lib/stream/xlsx/workbook-reader.js",
+      "lib/stream/xlsx/worksheet-reader.js"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Migration Guides",
+    "description": "Instructions for updating your code to accommodate breaking changes in new versions of ExcelJS.",
+    "path": "/migration-guides",
+    "sourceIds": [
+      "UPGRADE-4.0.md"
+    ],
+    "parentId": ""
+  },
+  {
+    "title": "Installation",
+    "description": "Step-by-step instructions for installing the ExcelJS library in your project environment.",
+    "path": "/quick-start/installation",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "package.json"
+    ],
+    "parentId": "/quick-start"
+  },
+  {
+    "title": "Creating Your First Spreadsheet",
+    "description": "A complete, copy-paste example to guide you through creating a workbook, adding data, and saving your first spreadsheet file.",
+    "path": "/quick-start/creating-your-first-spreadsheet",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "lib/exceljs.nodejs.js",
+      "lib/xlsx/xlsx.js",
+      "lib/xlsx/xform/book/workbook-xform.js",
+      "lib/xlsx/xform/sheet/worksheet-xform.js"
+    ],
+    "parentId": "/quick-start"
+  },
+  {
+    "title": "Object Model",
+    "description": "An overview of the core object hierarchy, including Workbooks, Worksheets, Rows, and Cells, which forms the basis of all document interactions.",
+    "path": "/core-concepts/object-model",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "lib/xlsx/xform/book/workbook-xform.js",
+      "lib/xlsx/xform/sheet/worksheet-xform.js",
+      "lib/xlsx/xform/sheet/row-xform.js",
+      "lib/xlsx/xform/sheet/cell-xform.js"
+    ],
+    "parentId": "/core-concepts"
+  },
+  {
+    "title": "Document vs. Streaming I/O",
+    "description": "A comparison of the two primary modes of operation, detailing the trade-offs between memory usage and feature availability for architects and developers.",
+    "path": "/core-concepts/document-vs-streaming",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "lib/xlsx/xlsx.js",
+      "lib/stream/xlsx/workbook-writer.js",
+      "lib/stream/xlsx/workbook-reader.js"
+    ],
+    "parentId": "/core-concepts"
+  },
+  {
+    "title": "Value Types",
+    "description": "A guide to the different types of data a cell can hold, such as numbers, strings, dates, formulas, and rich text.",
+    "path": "/core-concepts/value-types",
+    "sourceIds": [
+      "README.md",
+      "README_zh.md",
+      "lib/xlsx/xform/sheet/cell-xform.js"
+    ],
+    "parentId": "/core-concepts"
+  },
+  {
+    "title": "Reading & Writing Files",
+    "description": "Learn how to read and write spreadsheet files in both XLSX and CSV formats using the document-based model.",
+    "path": "/guides/reading-and-writing-files",
+    "sourceIds": [
+      "lib/xlsx/xlsx.js",
+      "lib/csv/csv.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Streaming Data",
+    "description": "A guide to using the memory-efficient streaming APIs for reading and writing large spreadsheet files.",
+    "path": "/guides/streaming-data",
+    "sourceIds": [
+      "lib/stream/xlsx/workbook-writer.js",
+      "lib/stream/xlsx/worksheet-writer.js",
+      "lib/stream/xlsx/workbook-reader.js",
+      "lib/stream/xlsx/worksheet-reader.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Workbooks",
+    "description": "Instructions for configuring workbook-level properties such as creator information, date systems, and window views.",
+    "path": "/guides/workbooks",
+    "sourceIds": [
+      "lib/xlsx/xform/book/workbook-xform.js",
+      "lib/xlsx/xform/book/workbook-properties-xform.js",
+      "lib/xlsx/xform/book/workbook-view-xform.js",
+      "lib/xlsx/xform/core/core-xform.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Worksheets",
+    "description": "A guide to managing worksheets, including properties, views, page setup, and protection.",
+    "path": "/guides/worksheets",
+    "sourceIds": [
+      "lib/xlsx/xform/sheet/worksheet-xform.js",
+      "lib/xlsx/xform/sheet/sheet-properties-xform.js",
+      "lib/xlsx/xform/sheet/sheet-view-xform.js",
+      "lib/xlsx/xform/sheet/page-setup-xform.js",
+      "lib/xlsx/xform/sheet/sheet-protection-xform.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Rows & Columns",
+    "description": "Learn how to manipulate rows and columns, including adding, accessing, splicing, and setting outline levels.",
+    "path": "/guides/rows-and-columns",
+    "sourceIds": [
+      "lib/xlsx/xform/sheet/row-xform.js",
+      "lib/xlsx/xform/sheet/col-xform.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Cells",
+    "description": "A comprehensive guide to working with cells, covering value types, merging, defined names, data validation, and comments.",
+    "path": "/guides/cells",
+    "sourceIds": [
+      "lib/xlsx/xform/sheet/cell-xform.js",
+      "lib/xlsx/xform/sheet/merge-cell-xform.js",
+      "lib/xlsx/xform/book/defined-name-xform.js",
+      "lib/xlsx/xform/sheet/data-validations-xform.js",
+      "lib/xlsx/xform/comment/comment-xform.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Styling",
+    "description": "Instructions on how to apply various styles to cells, rows, and columns, including fonts, alignment, borders, fills, and number formats.",
+    "path": "/guides/styling",
+    "sourceIds": [
+      "lib/xlsx/xform/style/styles-xform.js",
+      "lib/xlsx/xform/style/font-xform.js",
+      "lib/xlsx/xform/style/alignment-xform.js",
+      "lib/xlsx/xform/style/border-xform.js",
+      "lib/xlsx/xform/style/fill-xform.js",
+      "lib/xlsx/xform/style/numfmt-xform.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Advanced Features",
+    "description": "Explore advanced functionalities like embedding images, creating tables, pivot tables, and applying conditional formatting.",
+    "path": "/guides/advanced-features",
+    "sourceIds": [
+      "lib/xlsx/xform/drawing/drawing-xform.js",
+      "lib/xlsx/xform/table/table-xform.js",
+      "lib/xlsx/xform/pivot-table/pivot-table-xform.js",
+      "lib/xlsx/xform/sheet/cf/conditional-formattings-xform.js",
+      "README.md",
+      "README_zh.md"
+    ],
+    "parentId": "/guides"
+  },
+  {
+    "title": "Upgrading to v4.0",
+    "description": "Key changes and steps required to migrate your project from ExcelJS v3.x to v4.0, focusing on the new streaming reader API.",
+    "path": "/migration-guides/upgrading-to-v4",
+    "sourceIds": [
+      "UPGRADE-4.0.md"
+    ],
+    "parentId": "/migration-guides"
+  }
+]
