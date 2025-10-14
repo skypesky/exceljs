@@ -22,3 +22,27 @@ a3f3567d5cbfe350dfadc674cf20915524605ba58630bc44d4a780443137f843:
     https://www.staging.arcblock.io:
       url: https://www.staging.arcblock.io/image-bin/uploads/8f1ccf42288e7adb.svg
       upload_time: 2025-10-14T07:13:17.211Z
+4aeb9e66e2ba4222456b709cf8bf54ec8f096b6fc92da9ee3c7db85fea111db1:
+  local_path: .aigne/doc-smith/.tmp/assets/d2/3bb3706ecf57ea15b708e60312d999d3c0b6892b23bbd8ed13dcb4f928d60da9.svg
+  sites:
+    https://www.staging.arcblock.io:
+      url: https://www.staging.arcblock.io/image-bin/uploads/4aeb9e66e2ba4222.svg
+      upload_time: 2025-10-14T07:16:54.146Z
+ddadfa9efe4b8500c01da9c0d5c6159b91d7120604eb3fad394545355cee10a1:
+  local_path: .aigne/doc-smith/.tmp/assets/d2/13dbdba1e0913fb9556aadc4f79d0e3bce7305463153a05222bc816e0bb8d443.svg
+  sites:
+    https://www.staging.arcblock.io:
+      url: https://www.staging.arcblock.io/image-bin/uploads/ddadfa9efe4b8500.svg
+      upload_time: 2025-10-14T07:16:54.152Z
+ceec408a79ad5b20b681e2866c0b18e382b8192c27d9170d4ad3ae5b513d1411:
+  local_path: .aigne/doc-smith/.tmp/assets/d2/312bcec82542857545a43272efaeab75ec75239c6142431c6ef6fe87fc5f274a.svg
+  sites:
+    https://www.staging.arcblock.io:
+      url: https://www.staging.arcblock.io/image-bin/uploads/ceec408a79ad5b20.svg
+      upload_time: 2025-10-14T07:16:56.266Z
+1c0126e3c93dd16b3f1177bd507bc3a0bcd6265a144dcb651acd393cde27cb47:
+  local_path: .aigne/doc-smith/.tmp/assets/d2/f44ce438723c72c5c043b14809870035845276fb8a725467ec921058a5bde5bd.svg
+  sites:
+    https://www.staging.arcblock.io:
+      url: https://www.staging.arcblock.io/image-bin/uploads/1c0126e3c93dd16b.svg
+      upload_time: 2025-10-14T07:16:56.414Z
