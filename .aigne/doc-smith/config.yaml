@@ -61,8 +61,9 @@ locale: en
 # translateLanguages:  # List of languages to translate the documentation to
 #   - zh  # Example: Chinese translation
 #   - en  # Example: English translation
-docsDir: .aigne/doc-smith/docs  # Directory to save generated documentation
-sourcesPath:  # Source code paths to analyze
+docsDir: .aigne/doc-smith/docs # Directory to save generated documentation
+sourcesPath:
+  # Source code paths to analyze
   - ./lib
   - ./test
   - ./spec
@@ -72,9 +73,11 @@ sourcesPath:  # Source code paths to analyze
   - ./LICENSE
   - ./UPGRADE-4.0.md
 lastGitHead: 5a36a9ad4372c1dc7af874cf7b4951cc641dfe3f
-appUrl: https://docsmith.aigne.io
 boardId: exceljs
 # Checkout ID for document deployment service
 checkoutId: ""
 translateLanguages:
   - zh
+# Payment URL for document deployment website
+paymentUrl: https://s.aigne.io/j4i39Xvw
+appUrl: https://mgre6bu0.user.aigne.io
