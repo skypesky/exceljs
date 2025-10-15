@@ -72,7 +72,7 @@ sourcesPath:  # Source code paths to analyze
   - ./LICENSE
   - ./UPGRADE-4.0.md
 lastGitHead: 5a36a9ad4372c1dc7af874cf7b4951cc641dfe3f
-appUrl: https://www.staging.arcblock.io
+appUrl: https://docsmith.aigne.io
 boardId: exceljs
 # Checkout ID for document deployment service
 checkoutId: ""
